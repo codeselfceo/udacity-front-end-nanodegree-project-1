@@ -84,25 +84,9 @@
 }
 
 /* Responsive */
-@media screen and (max-width: 550px) {
-    /* Navbar */
-    img.logo {
-        width: 65px;
-        height: 65px;
-    }
-
-    .navbar .name-wrapper h1 {
-        font-size: 40px;
-    }
-
-    .navbar .name-wrapper span {
-        font-size: .9em;  
-    }
-}
-
 @media screen and (min-width: 551px) and (max-width: 768px) {
     /* Navbar */
-    img.logo {
+    .logo {
         width: 70px;
         height: 70px;
     }
@@ -113,5 +97,21 @@
 
     .navbar .name-wrapper span {
         font-size: 1em;  
+    }
+}
+
+@media screen and (max-width: 550px) {
+    /* Navbar */
+    .logo {
+        width: 65px;
+        height: 65px;
+    }
+
+    .navbar .name-wrapper h1 {
+        font-size: 40px;
+    }
+
+    .navbar .name-wrapper span {
+        font-size: .9em;  
     }
 }
